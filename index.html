@@ -25,6 +25,95 @@
             </form>
         </div>
 
+        <section>
+            <h2 class="header1">ADDRESS</h2>
+            <div class="address-info">
+                <form class="form-inline" action="/action_page.php">
+                    <label for="division"> DIVISION<span class="redcolor">* &nbsp; &nbsp;</span></label>
+                    <select class="bgcolor bgcolor1" name="DIRECTION" id="DIRECTION">
+                        <option value="SELECT">SELECT</option>
+                        <option value="EAST">DHAKA</option>
+                        <option value="WEST">KHULNA</option>
+                        <option value="NORTH">CHITTAGONG</option>
+                        <option value="SOUTH">MYMENSINGH</option>
+                        <option value="NORTH-EAST">RAJSHAHI</option>
+                        <option value="NORTH-WEST">RANGPUR</option>
+                        <option value="SOUTH-EAST">SYLHET</option>
+                        <option value="SOUTH-WEST">COMILLA</option>
+
+                    </select> &nbsp; &nbsp;
+                    <label for="district"> DISTRICT<span class="redcolor">* &nbsp; &nbsp;</span> </label>
+                    <select class="bgcolor bgcolor1" name="DIRECTION" id="DIRECTION">
+                        <option value="SELECT">SELECT</option>
+                        <option value="EAST">EAST</option>
+                        <option value="WEST">WEST</option>
+                        <option value="NORTH">NORTH</option>
+                        <option value="SOUTH">SOUTH</option>
+                        <option value="NORTH-EAST">NORTH-EAST</option>
+                        <option value="NORTH-WEST">NORTH-WEST</option>
+                        <option value="SOUTH-EAST">SOUTH-EAST</option>
+                        <option value="SOUTH-WEST">SOUTH-WEST</option>
+
+                    </select> &nbsp; &nbsp;
+                    <label for="thana"> THANA/UPAZILA <span class="redcolor">* &nbsp; &nbsp;</span></label>
+                    <select class="bgcolor" name="DIRECTION" id="DIRECTION">
+                        <option value="SELECT">SELECT</option>
+                        <option value="EAST">EAST</option>
+                        <option value="WEST">WEST</option>
+                        <option value="NORTH">NORTH</option>
+                        <option value="SOUTH">SOUTH</option>
+                        <option value="NORTH-EAST">NORTH-EAST</option>
+                        <option value="NORTH-WEST">NORTH-WEST</option>
+                        <option value="SOUTH-EAST">SOUTH-EAST</option>
+                        <option value="SOUTH-WEST">SOUTH-WEST</option>
+
+                    </select>
+
+                </form> <br>
+
+                <form class="form-inline" action="/action_page.php">
+                    <label for="union"> UNION <span class="redcolor">* &nbsp; &nbsp;</span></label>
+                    <select class="bgcolor" name="DIRECTION" id="DIRECTION">
+                        <option value="SELECT">SELECT</option>
+                        <option value="EAST">EAST</option>
+                        <option value="WEST">WEST</option>
+                        <option value="NORTH">NORTH</option>
+                        <option value="SOUTH">SOUTH</option>
+                        <option value="NORTH-EAST">NORTH-EAST</option>
+                        <option value="NORTH-WEST">NORTH-WEST</option>
+                        <option value="SOUTH-EAST">SOUTH-EAST</option>
+                        <option value="SOUTH-WEST">SOUTH-WEST</option>
+
+                    </select> &nbsp; &nbsp;
+                    <label for="mouza"> MOUZA <span class="redcolor">* &nbsp; &nbsp;</span> </label>
+                    <select class="bgcolor" name="DIRECTION" id="DIRECTION">
+                        <option value="SELECT">SELECT</option>
+                        <option value="EAST">EAST</option>
+                        <option value="WEST">WEST</option>
+                        <option value="NORTH">NORTH</option>
+                        <option value="SOUTH">SOUTH</option>
+                        <option value="NORTH-EAST">NORTH-EAST</option>
+                        <option value="NORTH-WEST">NORTH-WEST</option>
+                        <option value="SOUTH-EAST">SOUTH-EAST</option>
+                        <option value="SOUTH-WEST">SOUTH-WEST</option>
+
+                    </select>
+                </form> <br>
+
+                <form class="form-inline" action="/action_page.php">
+                    <label for="vill"> VILL/ROAD <span class="redcolor">* &nbsp; &nbsp;</span> </label>
+                    <input type="text" id="vill" placeholder="VILL/ROAD" name="vill">
+                </form> &nbsp; &nbsp;
+                </form> <br>
+
+                <form class="form-inline" action="/action_page.php">
+                    <label for="poffice"> POST OFFICE <span class="redcolor">* &nbsp; &nbsp;</span> </label>
+                    <input type="text" id="poffice" placeholder="POST OFFICE" name="poffice"> &nbsp; &nbsp;
+                    <label for="pcode"> POST CODE <span class="redcolor">* &nbsp; &nbsp;</span> </label>
+                    <input type="pcode" id="pcode" placeholder="POST CODE" name="pcode">
+                </form>
+            </div>
+        </section>
 
     </section>
     <section>
@@ -44,8 +133,8 @@
                     <td>1</td>
                     <td> <input type="text" placeholder="EIIN" text="20"></input></td>
                     <td><input type="text" placeholder="INSTITUTE NAME" text="20"></input></td>
-                    <td>KILOMETER<input type="number" placeholder="DISTANCE" text="20"></input>METER<input type="number"
-                            placeholder="DISTANCE" text="20"></input></td>
+                    <td>KILOMETER<input type="number" placeholder="(KM)" text="20"></input>METER<input type="number"
+                            placeholder="(M)" text="20"></input></td>
                     <td><select class="bgcolor" name="DIRECTION" id="DIRECTION">
                             <option value="SELECT">SELECT</option>
                             <option value="EAST">EAST</option>
@@ -63,8 +152,8 @@
                     <td>2</td>
                     <td> <input type="text" placeholder="EIIN" text="20"></input></td>
                     <td><input type="text" placeholder="INSTITUTE NAME" text="20"></input></td>
-                    <td>KILOMETER<input type="number" placeholder="DISTANCE" text="20"></input>METER<input type="number"
-                            placeholder="DISTANCE" text="20"></input></td>
+                    <td>KILOMETER<input type="number" placeholder="(KM)" text="20"></input>METER<input type="number"
+                            placeholder="(M)" text="20"></input></td>
                     <td><select class="bgcolor" name="DIRECTION" id="DIRECTION">
                             <option value="SELECT">SELECT</option>
                             <option value="EAST">EAST</option>
@@ -82,8 +171,8 @@
                     <td>3</td>
                     <td> <input type="text" placeholder="EIIN" text="20"></input></td>
                     <td><input type="text" placeholder="INSTITUTE NAME" text="20"></input></td>
-                    <td>KILOMETER<input type="number" placeholder="DISTANCE" text="20"></input>METER<input type="number"
-                            placeholder="DISTANCE" text="20"></input></td>
+                    <td>KILOMETER<input type="number" placeholder="(KM)" text="20"></input>METER<input type="number"
+                            placeholder="(M)" text="20"></input></td>
                     <td><select class="bgcolor" name="DIRECTION" id="DIRECTION">
                             <option value="SELECT">SELECT</option>
                             <option value="EAST">EAST</option>
@@ -101,8 +190,8 @@
                     <td>4</td>
                     <td> <input type="text" placeholder="EIIN" text="20"></input></td>
                     <td><input type="text" placeholder="INSTITUTE NAME" text="20"></input></td>
-                    <td>KILOMETER<input type="number" placeholder="DISTANCE" text="20"></input>METER<input type="number"
-                            placeholder="DISTANCE" text="20"></input></td>
+                    <td>KILOMETER<input type="number" placeholder="(KM)" text="20"></input>METER<input type="number"
+                            placeholder="(M)" text="20"></input></td>
                     <td><select class="bgcolor" name="DIRECTION" id="DIRECTION">
                             <option value="SELECT">SELECT</option>
                             <option value="EAST">EAST</option>

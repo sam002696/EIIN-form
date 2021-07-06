@@ -41,7 +41,10 @@ table {
   }
   .bgcolor:focus{
     background-color : #f7dde1d0;
-    ;
+    
+  }
+  .bgcolor1{
+      width: 20%;
   }
   .required-field::before {
     content: "*";
@@ -62,3 +65,7 @@ table {
     margin-left:25%;
     margin-right: 25%;
   }
+.address-info{
+    margin-left:20%;
+    margin-right: 20%;
+}
