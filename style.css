@@ -36,3 +36,9 @@ table {
   tbody tr:nth-child(odd) {
     background: rgb(233, 226, 227);
   }
+  input:focus{
+      background-color: pink;
+  }
+  .bgcolor:focus{
+    background-color: pink;
+  }
